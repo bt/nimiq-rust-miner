@@ -1,0 +1,9 @@
+[package]
+name = "rust_miner"
+version = "0.1.0"
+authors = ["sisou <hello@soerenschwert.de>"]
+
+[dependencies]
+rust-argon2 = "0.3.0"
+base64 = "0.9.0"
+flame = "0.2.2"
