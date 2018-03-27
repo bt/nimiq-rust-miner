@@ -119,6 +119,7 @@ dependencies = [
  "base64 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "flame 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "rust-argon2 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "u256 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -188,6 +189,11 @@ dependencies = [
 ]
 
 [[package]]
+name = "u256"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "unicode-xid"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -237,6 +243,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum serde_json 1.0.13 (registry+https://github.com/rust-lang/crates.io-index)" = "5c508584d9913df116b91505eec55610a2f5b16e9ed793c46e4d0152872b3e74"
 "checksum syn 0.12.14 (registry+https://github.com/rust-lang/crates.io-index)" = "8c5bc2d6ff27891209efa5f63e9de78648d7801f085e4653701a692ce938d6fd"
 "checksum thread-id 3.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "c7fbf4c9d56b320106cd64fd024dadfa0be7cb4706725fc44a7d7ce952d820c1"
+"checksum u256 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "525b9343eaa3c244a4af0fc3c93725f6e6804d250a7a316461780c28fafcba08"
 "checksum unicode-xid 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "fc72304796d0818e357ead4e000d19c9c174ab23dc11093ac919054d20a6a7fc"
 "checksum winapi 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)" = "04e3bd221fcbe8a271359c04f21a76db7d0c6028862d1bb5512d85e1e2eb5bb3"
 "checksum winapi-i686-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
